@@ -15,7 +15,11 @@ The completed assignment is in the neural-network-challenge-1 folder - the file 
 an external source. The model was saved in the Source_Code folder - model_model.keras
 
 ### Known Issues:
-I had some trouble getting the printouts to look like the original responses - could be because I am not using Colab as we were told we do not have to use it.  I did use it for the final assignment since it did not run on python.
+I had some trouble getting the printouts to look like the original responses 
+- could be because I am not using Colab as we were told we did not have to use it.
+I also had trouble printing out just a sample of the predictions - all of it
+printed out.  Finally I ended up reimporting tensorflow before fitting keras.  
+I was getting errors running so reimported tensorflow and others.
 
 ### Acknowledgements:
-The Xpert Asst helped me to get the keras model input correctly - I kept getting shape-related errors.
+The Xpert Asst helped me to get the keras model input correctly.
